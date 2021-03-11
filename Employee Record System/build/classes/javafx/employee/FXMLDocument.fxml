@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="598.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.employee.FXMLDocumentController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a2b2c" height="598.0" layoutX="3.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label layoutX="205.0" layoutY="95.0" text="Employee Record" textFill="#eeea0a">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#d10f1f" height="15.07" radius="7.035" width="15.07" />
+         </effect>
+      </Label>
+      <Button layoutX="516.0" layoutY="15.0" mnemonicParsing="false" onAction="#ExitAction" text="EXIT" textFill="#e10b0b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="1.0" color="#cd0707" />
+         </effect>
+      </Button>
+      <Label layoutX="260.0" layoutY="137.0" text="System" textFill="#eeea0a">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#d10f1f" height="15.07" radius="7.035" width="15.07" />
+         </effect>
+      </Label>
+      <Button fx:id="DA" layoutX="218.0" layoutY="444.0" mnemonicParsing="false" onAction="#DAAction" prefHeight="45.0" prefWidth="165.0" text="Display All Info" textFill="#9106bf">
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#760dbc" height="53.62" radius="26.2475" width="53.37" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="DS" layoutX="216.0" layoutY="508.0" mnemonicParsing="false" onAction="#DSAction" prefHeight="45.0" prefWidth="169.0" text="Display Specific Info" textFill="#b50b38">
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#c90b3b" height="50.65" radius="24.825" width="50.65" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="IS" layoutX="374.0" layoutY="313.0" mnemonicParsing="false" onAction="#IncreaseSalaryAction" text="Increse Salary" textFill="#079707">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#0ab916" height="50.65" radius="24.825" width="50.65" />
+         </effect>
+      </Button>
+      <Button fx:id="SI" layoutX="103.0" layoutY="313.0" mnemonicParsing="false" onAction="#SalaryInfoAction" text="Salary Info" textFill="#d13d0a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#e8560d" height="50.65" radius="24.825" width="50.65" />
+         </effect>
+      </Button>
+      <Button fx:id="ADD" layoutX="227.0" layoutY="222.0" mnemonicParsing="false" onAction="#addEmployeeAction" text="Add Employee" textFill="#3106bf">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#190abf" height="50.65" radius="24.825" width="50.65" />
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow choke="0.28" color="#078ca1" height="77.09" radius="37.305" width="74.13" />
+   </effect>
+</AnchorPane>
